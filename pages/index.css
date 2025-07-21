@@ -81,7 +81,7 @@
   max-width: 623px;
 }
 
-.header__footer {
+.header__footers {
   margin-top: auto;
   margin-left: 80px;
   display: flex;
@@ -146,4 +146,10 @@
   line-height: 30px;
   margin-top: 24px;
   margin-bottom: 0px;
+}
+
+.recipe__iframe {
+  border: none;
+  width: 480px;
+  height: 273px;
 }
