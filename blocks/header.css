@@ -1,10 +1,11 @@
 .header {
-  padding: 30px 80px 40px 30px;
+  padding: 30px 80px 40px;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
   position: relative;
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__image {
@@ -13,10 +14,11 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
-  margin: 183px 0 0 80px;
+  margin: 0 0 80px;
   max-width: 729px;
   font-family: "Inter";
   font-weight: 500;
@@ -33,8 +35,7 @@
 }
 
 .header__description {
-  margin-top: 28px;
-  margin-left: 80px;
+  margin: 28px 0 0;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -45,7 +46,6 @@
 
 .header__footers {
   margin-top: auto;
-  margin-left: 80px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

@@ -3,6 +3,8 @@
   background-color: #0a2750;
   padding: 100px 80px 215px;
   background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .recipes__videos {
